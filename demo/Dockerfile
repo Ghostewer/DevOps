@@ -1,3 +1,6 @@
+# Usage build : docker build -t demo-image:latest .
+# Usage run : docker run -d -p 8080:8080 --name dice-app demo-image:latest
+
 # ==============================================================================
 # ÉTAPE 1 : BUILD - Compilation du JAR avec Java 25 JDK
 # ==============================================================================
